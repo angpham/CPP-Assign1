@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main(int argc, char **argv)
+int main(int argc, char **argv) // Make sure to put in a command input for the hours worked
 {
     int reg = 16; // Regular Pay
     float over = reg * 1.5; // Overtime Pay
@@ -31,7 +31,7 @@ int main(int argc, char **argv)
     state = gross * 0.05; // State tax withheld
     net = gross - ss - fed - state - med; // Subtract all withheld from gross pay
 
-    // Outputs
+    // Outputs [(WH) = withheld]
     cout << "Gross Pay: $" << gross << endl;
     cout << "(WH) Social Security Tax: $" << ss << endl;
     cout << "(WH) Federal Income Tax: $" << fed << endl;
