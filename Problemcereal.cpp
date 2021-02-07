@@ -11,7 +11,7 @@ int main(int argc, char **argv) // Make sure to put in a command input for the w
     converted = weight/MT; // PROPORTION -> FORMULA: (MT/35,273.9) = (converted/input) --> converted = input/35,273.92
     boxes = 1/converted; // PROPORTION -> FORMULA: (1 box/converted in MT) = (boxes/1 MT) --> boxes = 1/converted
 
-    cout << "Package weight (MT): " << converted << endl; // Output
+    cout << "Package Weight (MT): " << converted << endl; // Output
     cout << "Number of Boxes to = 1 MT: " << boxes << endl; // Output
 
     return 0;

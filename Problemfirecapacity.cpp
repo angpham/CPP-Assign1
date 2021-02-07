@@ -7,7 +7,7 @@ int main(int argc, char **argv) // Make sure to put in command inputs for the ma
     int attendance = atoi(argv[2]); // Command Line Input
     int diff = 0;
 
-    if (attendance <= maxCapacity) { // Legal Meeting --> Max Capacity is met or not yet met 
+    if (attendance <= maxCapacity) { // Legal Meeting --> Max Capacity is met or not yet met
         diff = maxCapacity - attendance;
         cout << "LEGAL! " << diff << " more can attend the meeting." << endl; // Output
     }
